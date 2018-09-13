@@ -1,0 +1,46 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+
+    </style>
+
+    <style name="name">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height"> wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="descrip">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height"> wrap_content</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor"> @color/colorDescrip </item>
+    </style>
+
+    <style name= "content">
+        <item name="android:layout_width">304dp</item>
+        <item name="android:layout_height">52dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:layout_marginStart">45dp</item>
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor"> @color/colorContent </item>
+    </style>
+
+    <style name="shape">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">122dp</item>
+        <item name="android:layout_margin">20dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginTop">224dp</item>
+        <item name="android:background">@drawable/boxbg</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+</resources>
